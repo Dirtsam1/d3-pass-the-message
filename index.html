@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass the message Project</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid"> -->
+    <div class="input-container ">
+        <h1 class="heading">Would you like to pass a brief message?
+        </h1>
+        <input class="inputMessage" type="text"" placeholder=" write your message here." onfocus="this.value=''">
+        <button onclick="alertBtn()" id="btnId" type="submit" class="click-to-show">Submit</button>
+        <p id="demo"></p>
+        <h1 id="displayAlert">
+        </h1>
+    </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
